@@ -1,12 +1,15 @@
-import link from 'next/link';
+import React , { Component } from 'react'
+import Link from 'next/link';
 
 function Home() {
     return (<div>
             
             <h1>Pagina Inicial</h1>
-                <link href="/sobre">
+                <Link href="/sobre">
                     <a>Acessar página Sobre</a>
-                </link>    
+                </Link>   
+
+                  
 
             </div>
     )
