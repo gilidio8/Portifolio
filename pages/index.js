@@ -11,7 +11,7 @@ function Home() {
 
 
 
-function Contador (){
+function Contador() {
     const [contador,setContador] = useState(1);
     
     function adicionarContador() {
