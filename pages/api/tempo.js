@@ -4,7 +4,7 @@ function tempo(request, response){
 
     response.json({
             date: dynamicDate.toGMString()
-    })
+    });
 }
 
 export default tempo;
